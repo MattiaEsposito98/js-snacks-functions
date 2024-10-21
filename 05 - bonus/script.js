@@ -6,13 +6,24 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
+let hours = parseInt(prompt("Inserire un orario"))
 
 
 // Dichiara la funzione qui.
-
+function saluto(word) {
+  if (hours <= 13) {
+    return "Buongiorno " + name
+  }
+  else if (hours > 13 && hours <= 17) {
+    return "Buonpomeriggio " + name
+  }
+  else (hours > 17) 
+    return "Buonasera " + name 
+    
+}
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(saluto(name))
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.

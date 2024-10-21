@@ -2,7 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 let newArray = []
-let word = prompt("Inserisci una lettera")
+let word = prompt("Inserisci la lettera iniziale della parola")
 
 
 // Dichiara la funzione qui.
